@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galaxie Guerre</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header>Galaxie Guerre
+      <div>score:</div>
+<span id="sc">score: </span>
+    </header>
+    <div class="game-wrapper">
+      <div class="game"></div>
+      <div class="congratulations">
+        <h1>Félicitations!</h1>
+        <h2>Tu as gagné le jeu</h2>
+        <button class="btn" onclick="window.location.reload()">Rejouer</button>
+      </div>
+      <div class="game-over">
+        <h1>Jeu terminé</h1>
+        <h2>Tu as perdu le jeu</h2>
+        <button class="btn" onclick="window.location.reload()">Rejouer</button>
+      </div>
+    </div>
+    <footer>Touches gauche / droite pour se déplacer || Barre d'espace pour tirer</footer>
+  </div>
+  <script src="js/jeux.js"></script>
+</body>
+
+</html>
